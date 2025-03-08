@@ -1,0 +1,62 @@
+/* Estilo do cabeçalho */
+header {
+    background-color: #2C7BBF;  /* Azul escuro */
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Garantir que o header fique acima de outros elementos */
+}
+
+/* Container para o conteúdo do cabeçalho */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo do site */
+.logo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/* Estilo para o menu de navegação */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para cada item do menu */
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Estilo para os links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Efeito de destaque para o link "Marque Já Sua Consulta" */
+nav ul li a.highlight {
+    background-color: #FFDD00;  /* Amarelo para chamar a atenção */
+    color: #2C7BBF;  /* Cor azul escura para contraste */
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+
+/* Efeito de hover para os links */
+nav ul li a:hover {
+    opacity: 0.8;
+}
