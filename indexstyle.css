@@ -1,15 +1,21 @@
-/* Estilo do cabeçalho */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 header {
-    background-color: #2C7BBF;  /* Azul escuro */
+    background: rgba( 44, 123, 191, 0.85 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: white;
     padding: 1rem 0;
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Garantir que o header fique acima de outros elementos */
+    z-index: 1000;
 }
 
-/* Container para o conteúdo do cabeçalho */
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -19,28 +25,26 @@ header {
     padding: 0 20px;
 }
 
-/* Logo do site */
 .logo h1 {
-    font-family: 'Arial', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1.8rem;
     margin: 0;
 }
 
-/* Estilo para o menu de navegação */
 nav ul {
+    font-family: "Nunito", sans-serif;
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo para cada item do menu */
 nav ul li {
     margin: 0 20px;
 }
 
-/* Estilo para os links */
 nav ul li a {
+    font-family: "Nunito", sans-serif;
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -48,15 +52,19 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-/* Efeito de destaque para o link "Marque Já Sua Consulta" */
 nav ul li a.highlight {
-    background-color: #FFDD00;  /* Amarelo para chamar a atenção */
-    color: #2C7BBF;  /* Cor azul escura para contraste */
+
+    background-color: #FFDD00;
+    color: #2C7BBF; 
     padding: 5px 15px;
     border-radius: 25px;
 }
 
-/* Efeito de hover para os links */
 nav ul li a:hover {
     opacity: 0.8;
+}
+
+footer {
+    font-family: "Nunito";
+    text-align: center;
 }
